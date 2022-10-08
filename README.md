@@ -26,6 +26,7 @@ testing:
 /home/pi/.conda/envs/env385/bin/pip install PySimpleGUIWeb  
 /home/pi/.conda/envs/env385/bin/pip install adafruit-circuitpython-mpu6050  
 -> works  
+
 ###############################  
 
 # Spot Micro Modular
