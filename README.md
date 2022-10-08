@@ -1,3 +1,33 @@
+# Great project by Chris Albertson,  
+
+very clear and understandable for non-geniuses like me, without the dependency orgies caused by ROS :-)
+
+My project "pyro" is intended to be, very similar to "SpotMicroModular", an easy to reproduce and maintain four-legged robot.  The SpotMicroModular project is by far more developed and more professionally implemented than "pyro" and I am looking forward to rebuild "SpotMicroModular". Maybe I can incorporate some of my ideas.
+
+
+It's more or less easy to reproduce:
+
+conda create -n env385 python==3.8.5  
+python 3.9 throws an error 'HTMLParser' object has no attribute 'unescape' I could not fix yet)
+
+conda activate env385  
+
+quad_controller:  
+/home/pi/.conda/envs/env385/bin/pip install PySimpleGUI  
+/home/pi/.conda/envs/env385/bin/pip install numpy  
+/home/pi/.conda/envs/env385/bin/pip install matplotlib  
+/home/pi/.conda/envs/env385/bin/pip install adafruit-circuitpython-servokit  
+/home/pi/.conda/envs/env385/bin/pip install scipy  
+
+python3 main.py   
+-> works  
+
+testing:  
+/home/pi/.conda/envs/env385/bin/pip install PySimpleGUIWeb  
+/home/pi/.conda/envs/env385/bin/pip install adafruit-circuitpython-mpu6050  
+-> works  
+###############################  
+
 # Spot Micro Modular
 
 This repository holds my version of “Spot Micro” which was originated by Thingiverse user “KDY0523”.  
